@@ -1,0 +1,32 @@
+x= done
+o= not done
+o?= may cut feature
+
+Set up UI x
+	Format using foundation x
+	Style with foundation o
+		
+		Page 1(Home);
+			Backgorund image o?
+			Button at bottom linking to next page x 
+
+		Page 2(About Me);
+			Box container o?
+				thumbnail picture o
+				paragraph surrounding thumbnail o
+			 	bio section x 
+			Button x
+				link to portfolio page x
+			Container for links to the right o
+				links o
+					Linkedin o
+					Github o
+					? o
+
+		Page 3(Portfolio);
+			Box container o?
+				grid thumbnails o
+					link for project repository in thumbnail o
+					labels under each thumbnail o
+					(update readme files for each project when completed) o
+ 
