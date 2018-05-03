@@ -695,7 +695,7 @@ var About = function (_get__$Component) {
 					_react2.default.createElement(
 						'p',
 						null,
-						' No one knows when the first computer came into existence(1936), but since thier inception someone(Ada Lovelace) has attempted to improve the way the computer, internet, and software runs and I am proudly a member of the hard work and giberish club known as web development. Like many who have come before me, I started my career in school and quickly grew to new hights of understanding, technology, and inovation! I have learned much in such a short time, everything from front-end HTML to maddening back-end Node.js. In the days to come I hope to improve and expand my own site, ',
+						' No one knows when the first computer came into existence(1936), but since their inception someone(Ada Lovelace) has attempted to improve the way the computer, internet, and software runs. I am proudly a member of the hard work and giberish club known as web development. Like many who have come before me, I started my career in school and quickly grew to new hights of understanding, technology, and inovation! I have learned much in such a short time, everything from front-end HTML to maddening back-end Node.js. In the days to come I hope to improve and expand my own site, ',
 						_react2.default.createElement(
 							'i',
 							null,
@@ -708,7 +708,7 @@ var About = function (_get__$Component) {
 				_react2.default.createElement(
 					'div',
 					null,
-					_react2.default.createElement('img', { src: 'https://www.dodge.com/mediaserver/iris?client=FCAUS&market=U&brand=D&vehicle=2018_LD&paint=PAR&fabric=X9&sa=LDDM48,2DG,29G,AP,APA&pov=fronthero&width=1000&height=416&bkgnd=white&resp=jpg' }),
+					_react2.default.createElement('img', { src: 'https://i.pinimg.com/originals/30/a7/01/30a7018bd7a59a852f4177295208dd55.jpg' }),
 					_react2.default.createElement(
 						_Link_Component,
 						{ to: '/Portfolio', className: 'button secondary' },
