@@ -11,7 +11,7 @@ class Footer extends React.Component {
         	</u>
         	<br/>
         	<u>
-        		<a href="https://www.linkedin.com/in/caleb-davidson-8321bb149/" target="blank">Linkedin</a>
+        		<a href="https://www.linkedin.com/in/caleb-davidson1/" target="blank">Linkedin</a>
         	</u>
         	<br/>
         	<u>

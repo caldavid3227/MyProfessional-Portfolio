@@ -13,7 +13,7 @@ class Home extends React.Component {
             <h1>Salutations!</h1>
              My name is,<h5>Caleb Davdison</h5>
              <hr/>
-             I am a full stack web developer and creator of <i><a href="https://the-psuedocoder.herokuapp.com/" target="blank">The-PseudoCoder</a></i>                   
+             I am a full stack web developer and creator of <i><a href="https://the-pseudocoder.herokuapp.com/" target="blank">The-PseudoCoder</a></i>                   
           </p>
           <Link to="/AboutMe" className="button large expanded success">View My Bio!</Link>
         </div>

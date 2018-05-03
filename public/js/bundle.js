@@ -3091,7 +3091,7 @@ var Footer = function (_get__$Component) {
             null,
             _react2.default.createElement(
               "a",
-              { href: "https://www.linkedin.com/in/caleb-davidson-8321bb149/", target: "blank" },
+              { href: "https://www.linkedin.com/in/caleb-davidson1/", target: "blank" },
               "Linkedin"
             )
           ),
@@ -3645,7 +3645,7 @@ var Home = function (_get__$Component) {
               null,
               _react2.default.createElement(
                 'a',
-                { href: 'https://the-psuedocoder.herokuapp.com/', target: 'blank' },
+                { href: 'https://the-pseudocoder.herokuapp.com/', target: 'blank' },
                 'The-PseudoCoder'
               )
             )
@@ -4242,7 +4242,7 @@ var Portfolio = function (_get__$Component) {
 					_react2.default.createElement('br', null),
 					_react2.default.createElement(
 						'a',
-						{ href: 'https://the-psuedocoder.herokuapp.com/', className: 'thumbnail', target: 'blank' },
+						{ href: 'https://the-pseudocoder.herokuapp.com/', className: 'thumbnail', target: 'blank' },
 						_react2.default.createElement('img', { src: 'https://blog.nxp.com/wp-content/uploads/2017/10/Software-car-reuse-960x425.jpg', alt: 'The-PsuedoCoder' })
 					),
 					_react2.default.createElement('hr', null)

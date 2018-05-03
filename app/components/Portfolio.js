@@ -13,7 +13,7 @@ class Portfolio extends React.Component{
 				</div>
 				<div className="text-center">
 					The-PsuedoCoder<br/>
-					<a href="https://the-psuedocoder.herokuapp.com/" className="thumbnail" target="blank"><img src="https://blog.nxp.com/wp-content/uploads/2017/10/Software-car-reuse-960x425.jpg" alt="The-PsuedoCoder"/></a>
+					<a href="https://the-pseudocoder.herokuapp.com/" className="thumbnail" target="blank"><img src="https://blog.nxp.com/wp-content/uploads/2017/10/Software-car-reuse-960x425.jpg" alt="The-PsuedoCoder"/></a>
 
 					<hr/>
 				</div>
