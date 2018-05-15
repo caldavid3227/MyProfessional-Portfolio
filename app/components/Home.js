@@ -7,7 +7,7 @@ import Messages from './Messages';
 class Home extends React.Component {
   render() {
     return (
-      <div data-interchange="[http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, small], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, medium], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, large]">
+      <div className="" data-interchange="[http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, small], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, medium], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, large]">
         <div className="text-center">
           <p>
             <h1>Salutations!</h1>

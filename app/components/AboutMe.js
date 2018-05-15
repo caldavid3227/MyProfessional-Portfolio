@@ -17,10 +17,16 @@ class About extends React.Component{
 					 In the days to come I hope to improve and expand my own site, <i>The-PsuedoCoder</i> and to learn much more about this world of computers. 
 					 Passion, knowledge, joy, and a healthy programming addiction drive me to the top, in hopes of being one of the best, and one of the few who earn the memory of changing and mondernizing how we write our code, one function at a time.<br/>
 					</p>
+					<p> Do you ever feel like somethings missing? Like your companies good, but it could be great? Something that brings a whole new level of fun, intellect, wit, and inovation?
+					 Well look no further for I am here! programming has become a very large and invaluable part of my life. It has taught me everything from creating and running my own local server, to valuable life lessons on being adatipble, intelligable, patient, and determained. 
+					 Not a day goes by where I find coding at the center of my next step forward. Yet for all of frustrations and strain this field brings, I always find myself smiling and contempt knowing that I have the oportunity to do soemthing few others can and that I have limitless potential at my ginger tips.
+					 We made it to the moon(unless we didn't actually go)on megabytes, imagine all we can do with the terabytes at our disposal each and every day, waiting and ready to make the indivdual, men, women, children, and the human race as a whole better, more intelligent, and more enlightened. 
+					 It is a great honor a privilage to be a part of this experience and to develope the skills necessary to push technology and the intert forward. The only limitations our programs have are the limitations we put on ourselves, so why would we let ourselves be limited when I can seak to learn more and more each passing moment?
+					 </p>  
 				</div>
 				<div>
-					<img src="https://i.pinimg.com/originals/30/a7/01/30a7018bd7a59a852f4177295208dd55.jpg"/>
 				 	<Link to="/Portfolio" className="button secondary">See my works here</Link> 
+					<img src=''/>
 				</div>
 			</div>
 			);

@@ -17,16 +17,16 @@ class Portfolio extends React.Component{
 
 					<hr/>
 				</div>
-				<div className="grid-x">
-					<div className="cell small-6">
+				<div className="text-center">
+					<div>
 						Church Finder<br/>
 						<a href="https://tranquil-atoll-37047.herokuapp.com/" className="thumbnail" target="blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhaDAEGG_EA9RS8qePPHBSANnVkr2Ouo1iRHTpFIGVfoFeO_-X" alt="ChurchFinder"/></a>
-					</div>			
-					<div className="cell auto">
+					</div>
+					<div>
 						Smart Bets<br/>
 						<a href="https://caldavid3227.github.io/Sports-Data-App/" className="thumbnail" target="blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ZzLN-f1sI3FUvWYkM5A7CXsh8jfCSqiUJTg5Id3uz4H8BvyCkw" alt="SmartBets"/></a>
-					</div>	
-				</div>
+					</div>
+				</div>		
 			</div>
 		);
 	};

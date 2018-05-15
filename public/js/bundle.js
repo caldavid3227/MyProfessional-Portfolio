@@ -703,17 +703,22 @@ var About = function (_get__$Component) {
 						),
 						' and to learn much more about this world of computers. Passion, knowledge, joy, and a healthy programming addiction drive me to the top, in hopes of being one of the best, and one of the few who earn the memory of changing and mondernizing how we write our code, one function at a time.',
 						_react2.default.createElement('br', null)
+					),
+					_react2.default.createElement(
+						'p',
+						null,
+						' Do you ever feel like somethings missing? Like your companies good, but it could be great? Something that brings a whole new level of fun, intellect, wit, and inovation? Well look no further for I am here! programming has become a very large and invaluable part of my life. It has taught me everything from creating and running my own local server, to valuable life lessons on being adatipble, intelligable, patient, and determained. Not a day goes by where I find coding at the center of my next step forward. Yet for all of frustrations and strain this field brings, I always find myself smiling and contempt knowing that I have the oportunity to do soemthing few others can and that I have limitless potential at my ginger tips. We made it to the moon(unless we didn\'t actually go)on megabytes, imagine all we can do with the terabytes at our disposal each and every day, waiting and ready to make the indivdual, men, women, children, and the human race as a whole better, more intelligent, and more enlightened. It is a great honor a privilage to be a part of this experience and to develope the skills necessary to push technology and the intert forward. The only limitations our programs have are the limitations we put on ourselves, so why would we let ourselves be limited when I can seak to learn more and more each passing moment?'
 					)
 				),
 				_react2.default.createElement(
 					'div',
 					null,
-					_react2.default.createElement('img', { src: 'https://i.pinimg.com/originals/30/a7/01/30a7018bd7a59a852f4177295208dd55.jpg' }),
 					_react2.default.createElement(
 						_Link_Component,
 						{ to: '/Portfolio', className: 'button secondary' },
 						'See my works here'
-					)
+					),
+					_react2.default.createElement('img', { src: '' })
 				)
 			);
 		}
@@ -3069,40 +3074,44 @@ var Footer = function (_get__$Component) {
         "footer",
         null,
         _react2.default.createElement(
-          "p",
-          null,
-          "\xA9 2018 Caleb Davidson. All Rights Reserved."
-        ),
-        _react2.default.createElement(
-          "p",
-          { className: "text-right" },
+          "div",
+          { className: "button expanded primary" },
           _react2.default.createElement(
-            "u",
+            "p",
             null,
-            _react2.default.createElement(
-              "a",
-              { href: "https://github.com/caldavid3227", target: "blank" },
-              "Git Hub"
-            )
+            "\xA9 2018 Caleb Davidson. All Rights Reserved."
           ),
-          _react2.default.createElement("br", null),
           _react2.default.createElement(
-            "u",
-            null,
+            "p",
+            { className: "text-right" },
             _react2.default.createElement(
-              "a",
-              { href: "https://www.linkedin.com/in/caleb-davidson1/", target: "blank" },
-              "Linkedin"
-            )
-          ),
-          _react2.default.createElement("br", null),
-          _react2.default.createElement(
-            "u",
-            null,
+              "u",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: "button", href: "https://github.com/caldavid3227", target: "blank" },
+                "Git Hub"
+              )
+            ),
+            _react2.default.createElement("br", null),
             _react2.default.createElement(
-              "a",
-              { href: "https://stackoverflow.com/", target: "blank" },
-              "Stack Overflow"
+              "u",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: "button", href: "https://www.linkedin.com/in/caleb-davidson1/", target: "blank" },
+                "Linkedin"
+              )
+            ),
+            _react2.default.createElement("br", null),
+            _react2.default.createElement(
+              "u",
+              null,
+              _react2.default.createElement(
+                "a",
+                { className: "button", href: "https://stackoverflow.com/", target: "blank" },
+                "Stack Overflow"
+              )
             )
           )
         )
@@ -3620,7 +3629,7 @@ var Home = function (_get__$Component) {
 
       return _react2.default.createElement(
         'div',
-        { 'data-interchange': '[http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, small], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, medium], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, large]' },
+        { className: '', 'data-interchange': '[http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, small], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, medium], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, large]' },
         _react2.default.createElement(
           'div',
           { className: 'text-center' },
@@ -4249,10 +4258,10 @@ var Portfolio = function (_get__$Component) {
 				),
 				_react2.default.createElement(
 					'div',
-					{ className: 'grid-x' },
+					{ className: 'text-center' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'cell small-6' },
+						null,
 						'Church Finder',
 						_react2.default.createElement('br', null),
 						_react2.default.createElement(
@@ -4263,7 +4272,7 @@ var Portfolio = function (_get__$Component) {
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'cell auto' },
+						null,
 						'Smart Bets',
 						_react2.default.createElement('br', null),
 						_react2.default.createElement(
