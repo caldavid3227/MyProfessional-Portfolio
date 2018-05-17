@@ -3607,40 +3607,49 @@ var Home = function (_get__$Component) {
 
       return _react2.default.createElement(
         'div',
-        { className: '', 'data-interchange': '[http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, small], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, medium], [http://www.web-world.co.in/wp-content/uploads/2017/04/Web-world-1600x580.jpg, large]' },
+        null,
         _react2.default.createElement(
           'div',
-          { className: 'text-center' },
+          { 'data-interchange': '[../Images/Web-world-1600x580.jpg, small], [../Images/Web-world-1600x580.jpg, medium], [../Images/Web-world-1600x580.jpg, large]' },
           _react2.default.createElement(
-            'p',
-            null,
+            'div',
+            { className: 'text-center' },
             _react2.default.createElement(
-              'h1',
-              null,
-              'Salutations!'
-            ),
-            'My name is,',
-            _react2.default.createElement(
-              'h5',
-              null,
-              'Caleb Davdison'
-            ),
-            _react2.default.createElement('hr', null),
-            'I am a full stack web developer and creator of ',
-            _react2.default.createElement(
-              'i',
+              'p',
               null,
               _react2.default.createElement(
-                'a',
-                { href: 'https://the-pseudocoder.herokuapp.com/', target: 'blank' },
-                'The-PseudoCoder'
-              )
+                'h1',
+                null,
+                'Salutations!'
+              ),
+              'My name is,',
+              _react2.default.createElement(
+                'h5',
+                null,
+                'Caleb Davdison'
+              ),
+              _react2.default.createElement('hr', null),
+              'I am a full stack web developer and creator of ',
+              _react2.default.createElement(
+                'i',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://the-pseudocoder.herokuapp.com/', target: 'blank' },
+                  'The-PseudoCoder'
+                )
+              ),
+              _react2.default.createElement('br', null),
+              'Welcome to my site.',
+              _react2.default.createElement('br', null),
+              'I hope you find it illuminating and enjoyable.',
+              _react2.default.createElement('br', null)
+            ),
+            _react2.default.createElement(
+              _Link_Component,
+              { to: '/AboutMe', className: 'button large expanded success' },
+              'View My Bio!'
             )
-          ),
-          _react2.default.createElement(
-            _Link_Component,
-            { to: '/AboutMe', className: 'button large expanded success' },
-            'View My Bio!'
           )
         )
       );
