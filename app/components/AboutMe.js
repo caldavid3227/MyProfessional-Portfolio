@@ -10,12 +10,12 @@ class About extends React.Component{
 			<div>
 				<div>
 					<p> From the dawn of creation, man has strived to be better. 
-					Myself on the other hand, I strived to make really stupid computers intelligent by speaking giberish to them...
+					Myself on the other hand, I strived to make unintelligent computers intelligent by speaking giberish to them...
 					</p>
-					<p>	No one knows when the first computer came into existence(1936), but since their inception someone(Ada Lovelace) has attempted to improve the way the computer, internet, and software runs. I am proudly a member of the hard work and giberish club known as web development.
-					 Like many who have come before me, I started my career in school and quickly grew to new hights of understanding, technology, and inovation! I have learned much in such a short time, everything from front-end HTML to maddening back-end Node.js.
-					 In the days to come I hope to improve and expand my own site, <i>The-PsuedoCoder</i> and to learn much more about this world of computers. 
-					 Passion, knowledge, joy, and a healthy programming addiction drive me to the top, in hopes of being one of the best, and one of the few who earn the memory of changing and mondernizing how we write our code, one function at a time.<br/>
+					<p>	No one knows when the first computer came into existence(1936), but since their inception, someone(Ada Lovelace) attempted to improve the way the computer, internet, and software run. I am proudly a member of this hard work and balderdash club known as web development.
+					 Like many who have come before me, I started my career in school and quickly grew to new hights of understanding, technology, and inovation! I have learned a great deal in such a short time; everything from front-end HTML to maddening back-end Node.js.
+					 In the days to come I hope to improve and expand my own site, <i>The-PsuedoCoder</i> and to learn as much as humanly possible about this world of computers. 
+					 Passion, a thirst for knowledge, and a healthy programming addiction drive me to the top, in hopes of being one of the best, and one of the few who earn the memory of changing and mondernizing how we write our code, one function at a time.<br/>
 					</p>
 					<p> Do you ever feel like somethings missing? Like your companies good, but it could be great? Something that brings a whole new level of fun, intellect, wit, and inovation?
 					 Well look no further for I am here! programming has become a very large and invaluable part of my life. It has taught me everything from creating and running my own local server, to valuable life lessons on being adatipble, intelligable, patient, and determained. 
