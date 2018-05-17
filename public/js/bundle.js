@@ -2810,69 +2810,50 @@ var Contact = function (_get__$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _Messages_Component = _get__('Messages');
-
       return _react2.default.createElement(
         'div',
-        { className: 'expanded row' },
+        { className: 'align-center' },
         _react2.default.createElement(
           'div',
-          { className: 'row' },
+          { className: 'cell large-5' },
           _react2.default.createElement(
-            'h3',
-            null,
-            'Contact Form'
-          ),
-          _react2.default.createElement(_Messages_Component, { messages: this.props.messages }),
-          _react2.default.createElement(
-            'form',
-            { onSubmit: this.handleSubmit.bind(this) },
+            'div',
+            { className: 'card text-center' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'card-section' },
+              _react2.default.createElement('img', { src: '../Images/Email.svg' }),
               _react2.default.createElement(
-                'div',
-                { className: 'medium-8 columns' },
-                _react2.default.createElement(
-                  'label',
-                  { htmlFor: 'name' },
-                  'Name'
-                ),
-                _react2.default.createElement('input', { type: 'text', name: 'name', id: 'name', value: this.state.name, onChange: this.handleChange.bind(this), autoFocus: true })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
+                'h4',
+                null,
+                'Please, feel free to contact me!'
+              ),
               _react2.default.createElement(
-                'div',
-                { className: 'medium-8 columns' },
+                'p',
+                null,
                 _react2.default.createElement(
-                  'label',
-                  { htmlFor: 'email' },
-                  'Email'
+                  'h5',
+                  null,
+                  'EMAIL:'
                 ),
-                _react2.default.createElement('input', { type: 'email', name: 'email', id: 'email', value: this.state.email, onChange: this.handleChange.bind(this) })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
-              _react2.default.createElement(
-                'div',
-                { className: 'medium-8 columns' },
                 _react2.default.createElement(
-                  'label',
-                  { htmlFor: 'message' },
-                  'Body'
+                  'u',
+                  null,
+                  'davidsoncaleb97@gmail.com'
                 ),
-                _react2.default.createElement('textarea', { name: 'message', id: 'message', rows: '7', value: this.state.message, onChange: this.handleChange.bind(this) })
+                _react2.default.createElement(
+                  'h5',
+                  null,
+                  'PHONE:'
+                ),
+                _react2.default.createElement(
+                  'u',
+                  null,
+                  '(480)395-5530'
+                ),
+                _react2.default.createElement('br', null),
+                'Or contact me through one of the links you see at the bottom.'
               )
-            ),
-            _react2.default.createElement(
-              'button',
-              { type: 'submit', className: 'button' },
-              'Send'
             )
           )
         )
@@ -2921,9 +2902,6 @@ function _get_original__(variableName) {
   switch (variableName) {
     case 'submitContactForm':
       return _contact.submitContactForm;
-
-    case 'Messages':
-      return _Messages2.default;
 
     case 'React':
       return _react2.default;

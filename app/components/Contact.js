@@ -20,33 +20,26 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="expanded row">
-        <div className="row">
-          <h3>Contact Form</h3>
-          <Messages messages={this.props.messages}/>
-          <form onSubmit={this.handleSubmit.bind(this)}>
-            <div className="row">
-              <div className="medium-8 columns">
-                <label htmlFor="name">Name</label>
-                <input type="text" name="name" id="name" value={this.state.name} onChange={this.handleChange.bind(this)} autoFocus/>
-              </div>
+      
+      <div className="align-center">
+        <div className="cell large-5">
+          <div className="card text-center">
+            <div className="card-section">
+              <img src="../Images/Email.svg"/>
+              <h4>Please, feel free to contact me!</h4>
+              <p>
+              <h5>EMAIL:</h5>
+                <u>davidsoncaleb97@gmail.com</u>
+              <h5>PHONE:</h5>
+                <u>(480)395-5530</u><br/>
+              Or contact me through one of the links you see at the bottom.
+              </p>
             </div>
-            <div className="row">
-              <div className="medium-8 columns">
-                <label htmlFor="email">Email</label>
-                <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleChange.bind(this)}/>
-              </div>
-            </div>
-            <div className="row">
-              <div className="medium-8 columns">
-                <label htmlFor="message">Body</label>
-                <textarea name="message" id="message" rows="7" value={this.state.message} onChange={this.handleChange.bind(this)}></textarea>
-              </div>
-            </div>
-            <button type="submit" className="button">Send</button>
-          </form>
+          </div>
         </div>
       </div>
+
+
     );
   }
 }
