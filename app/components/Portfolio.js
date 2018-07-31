@@ -26,6 +26,10 @@ class Portfolio extends React.Component{
 						Smart Bets<br/>
 						<a href="https://caldavid3227.github.io/Sports-Data-App/" className="thumbnail" target="blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ZzLN-f1sI3FUvWYkM5A7CXsh8jfCSqiUJTg5Id3uz4H8BvyCkw" alt="SmartBets"/></a>
 					</div>
+					<div>
+						Hangman<br/>
+						<a href="https://caldavid3227.github.io/Front-End_Hangman-Game/" className="thumbnail" target="blank"><img src="https://www.englishclub.com/images/esl-games/hangman-150.png" alt="hangMan"></img></a> 
+					</div>
 				</div>		
 			</div>
 		);
